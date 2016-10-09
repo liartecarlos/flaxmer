@@ -1,5 +1,0 @@
-function prueba(){
-    alert("loco");
-}
-
-
