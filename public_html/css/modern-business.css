@@ -24,6 +24,15 @@ body {
 
 }
 
+.pie {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+}
+
 .substitulo{
 
     color: #c9302c; 
