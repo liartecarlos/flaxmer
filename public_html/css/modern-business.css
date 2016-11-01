@@ -9,6 +9,7 @@
 html,
 body {
     height: 100%;
+    margin-bottom:50px;
 }
 
 .titulo{
@@ -25,12 +26,20 @@ body {
 }
 
 .pie {
-   position:fixed;
-   left:0px;
-   bottom:0px;
-   height:30px;
-   margin-top: auto;
-   width:100%; 
+    padding-top: 10px;
+    position: relative;
+    bottom: 0;
+    width:100%;    
+    padding-bottom: 0px;
+}
+
+.pie2 {
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+    width:100%;    
+    padding-bottom: 0px;
+    height: auto;
 }
 
 .substitulo{
@@ -47,8 +56,8 @@ body {
 
 #accordion .panel-heading { padding: 0;}
 #accordion .panel-title > a {
-	display: block;
-	padding: 0.4em 0.6em;
+    display: block;
+    padding: 0.4em 0.6em;
     outline: none;
     font-weight:bold;
     text-decoration: none;
@@ -70,7 +79,7 @@ body {
     content:"\e113";
     float: left;
     font-family: 'Glyphicons Halflings';
-	margin-right :1em;
+    margin-right :1em;
 }
 #accordion1 .panel-title > a.accordion1-toggle.collapsed::before, #accordion1 a.collapsed[data-toggle="collapse"]::before  {
     content:"\e114";
@@ -80,7 +89,7 @@ body {
     content:"\e113";
     float: left;
     font-family: 'Glyphicons Halflings';
-	margin-right :1em;
+    margin-right :1em;
 }
 #accordion2 .panel-title > a.accordion2-toggle.collapsed::before, #accordion2 a.collapsed[data-toggle="collapse"]::before  {
     content:"\e114";
@@ -90,38 +99,38 @@ body {
     content:"\e113";
     float: left;
     font-family: 'Glyphicons Halflings';
-	margin-right :1em;
+    margin-right :1em;
 }
 #accordion3 .panel-title > a.accordion3-toggle.collapsed::before, #accordion3 a.collapsed[data-toggle="collapse"]::before  {
     content:"\e114";
 }
 
 .textbox{
-  width:100%;
-  border-radius:3px;
-  border:rgba(0,0,0,.3) 2px solid;
-  box-sizing:border-box;
-  padding:10px;
-  margin-bottom:30px;
+    width:100%;
+    border-radius:3px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    padding:10px;
+    margin-bottom:30px;
 }
 
 .textbox:focus{
-  outline:none;
-   border:rgba(24,149,215,1) 2px solid;
-   color:rgba(24,149,215,1);
+    outline:none;
+    border:rgba(24,149,215,1) 2px solid;
+    color:rgba(24,149,215,1);
 }
 
 input[type="checkbox"]{
-    
+
     transform: scale(2);
     padding: 10%;
     margin: 10px;
-    
-    
+
+
 }
 
 .h4, .titulo_productos{
-    
+
     font-family: 'Rouge Script', cursive; 
     font-size: 20px; 
     font-weight: normal; 
